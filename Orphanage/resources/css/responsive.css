@@ -1,0 +1,496 @@
+@media(max-width: 990px){
+    #intro{
+    padding-top: 0px;
+}
+}
+
+
+@media (max-width: 767px) {
+  .m1 {
+    position: relative;
+    /* left: 17%; */
+  }
+  
+  #my-cards{
+    padding-top: 30px;
+}
+    
+}
+
+
+@media (max-width: 514px) {
+  #hope h3 {
+    position: absolute;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+  }
+  #hope a {
+    position: absolute;
+    top: 80%;
+    left: 37%;
+  }
+}
+
+@media(max-width: 495px){
+    #hope p{
+    font-size: 90%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    
+}
+    
+}
+@media(max-width: 425px){
+    
+    #hope p{
+    font-size: 90%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    
+}
+
+#hope h6{
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 69%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+}
+}
+
+
+@media(max-width: 359px){
+    
+    #hope p{
+    font-size: 90%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    
+}
+
+#hope h6{
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 73%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    
+}
+    
+
+    
+}
+@media(max-width: 997px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 44%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 44%;
+    
+}
+}
+
+@media(max-width: 866px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 43%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 43%;
+    
+}
+}
+
+@media(max-width: 768px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 42%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 42%;
+    
+}
+}
+@media(max-width: 658px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 41%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 41%;
+    
+}
+}
+
+
+@media(max-width: 604px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 39.5%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 39.5%;
+    
+}
+}
+
+@media(max-width: 475px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 72%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 38%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 38%;
+    
+}
+}
+
+@media(max-width: 426px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 76%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 37%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 76%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 37%;
+    
+}
+}
+
+@media(max-width: 397px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 81%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 35%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 81%;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 35%;
+    
+}
+}
+@media(max-width: 359px){
+#hope a{
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 84%;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    left: 32.5%;
+    
+}
+
+#hope a:hover, #hope a:active{
+    
+    position: absolute;
+    top: 84%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 8px 12px 8px 16px;
+    border: 1px solid #fff;
+    left: 32.5%;
+    
+}
+}
+
+
+
+@media(max-width: 768px){
+    p.p2{
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
+
+@media(max-width: 348px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 330px){
+    p.p2{
+        margin-bottom: 8%;
+    }
+}
+
+@media(max-width: 1200px){
+    .division-main{
+        margin-top: 30px;
+    }
+	
+}
+
+@media(max-width: 768px){
+.dt1{
+	position: relative;
+	transform: translateY(130%);
+}	
+}
+
+@media(max-width: 576px){
+.dt1{
+	position: relative;
+	transform: translateY(190%);
+}	
+}
+@media(max-width: 445px){
+.dt1{
+	position: relative;
+	transform: translateY(150%);
+}	
+}
+
+@media(max-width: 769px){
+.ft1{
+	position: relative;
+	transform: translateY(130%);
+}
+}
+@media(max-width: 380px){
+.ft1{
+	position: relative;
+	transform: translateY(110%);
+}
+}
+
+@media(max-width: 337px){
+.ft1{
+	position: relative;
+	transform: translateY(90%);
+}
+}
+@media(max-width: 428px){
+
+.vt1{
+	position: relative;
+	transform: translateY(160%);
+}
+
+}
+
+@media(max-width: 398px){
+
+.vt1{
+	position: relative;
+	transform: translateY(140%);
+}
+
+}
+
+@media(max-width: 361px){
+
+.vt1{
+	position: relative;
+	transform: translateY(100%);
+}
+
+}
+@media(max-width: 429px){
+
+.et1{
+	position: relative;
+	transform: translateY(170%);
+}
+}
+
+@media(max-width: 399px){
+
+.et1{
+	position: relative;
+	transform: translateY(150%);
+}
+}
+
+
+

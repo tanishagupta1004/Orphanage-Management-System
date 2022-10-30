@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="#" />
+
+    <link rel="icon" href="resources/img/logo.png" type="image/png" />
+
+    <!-- title -->
+    <title>Orphanage Home</title>
+
+    <!-- css scripts-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap and style-css -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/form.css" />
+
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+	/>
+	 
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a650d146c2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap jquery files -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+	  
+	<script type="text/javascript" src="resources/js/index.js"></script>
+	<script type="text/javascript" src="resources/js/jquery.waypoints.min.js"></script>
+
+	
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/css/responsive.css"
+    />
+	<style>
+      @media only screen and (max-width: 600px) {
+        #fellow-image{
+          background-image: url(./resources/css/img/cover_md.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+          background-attachment: fixed;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-area">
+      <!--<div class ="row heading1 m0">
+                <div class="container">
+                    <div class="float-left">
+                        <ul class="header-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="float-right">
+                        <a href="#">My Account</a>
+                        <a href="#">Donate Now</a>
+                    
+                    </div>
+                </div>
+            </div>-->
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="resources/img/logo.png"
+            /></a>
+            <!--<h5 class="logo-heading">Orphanage Home</h5>-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navigation-bar navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link linknav" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="gallary.html">Activity</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="donation.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="fellowship.html">Fellowship</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="volunteer.html">Volunteer</a>
+                </li>
+				<li class="nav-item">
+                  <a class="nav-link linknav" href="events.html">Events</a>
+                </li>
+				<li class="nav-item">
+                  <a class="nav-link linknav" href="faq.html">View Orphanage</a>
+				 </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="fellow-image">
+      <div class="row">
+        <div class="container">
+          <div class="f-matter ft1" style="text-align: -webkit-center">
+            <h2 class="align-items-center">
+              Are you passionate about education ?
+            </h2>
+            <p>
+              Our fellowship is a two-year paid full time fellowship for young
+              graduates to work on whole school transformation
+            </p>
+            <a class="btn" href="#forms">Register Today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="container">
+        <h2 style="color: #331159">OUR MISSION</h2>
+        <div class="row v1">
+          <div class="col-lg-6 col-md-12">
+            <div class="division-main">
+              <div class="vision_matter">
+                <p>
+                  At our organisation, we’re passionate about driving meaningful
+                  change. We believe in a just system that provides equal
+                  opportunities for all. This includes a working education
+                  system that prepares children for a better tomorrow.
+                </p>
+                <p>
+                  We respect differences and know that our decisions echo. So we
+                  decided to make the unworkable work. We believe that, as
+                  educators and socially conscious citizens, it is our
+                  responsibility to equip our underprivileged children with the
+                  knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12" style="margin-top: inherit">
+            <div class="align-items-center vision img i2">
+              <img src="resources/img/img3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fellow_matter">
+      <div class="container">
+        <div class="row">
+          <div style="text-align: -webkit-center" class="col-lg-12">
+            <div
+              class="card align-items-center j2"
+              style="
+                width: 100%;
+                box-shadow: inset 0 0 10px #a173db;
+                padding: 30px;
+              "
+            >
+              <i
+                class="fas fa-3x fa-handshake"
+                style="background-color: #a173db"
+              ></i>
+              <div class="card-body">
+                <h2 class="card-title cc" style="color: #331159">
+                  A Life-Changing Experience that Changes Lives.
+                </h2>
+                <p class="card-text cc1">
+                  Our Fellowship is a full-time paid two-year program designed
+                  to develop educational changemakers to lead the next movement
+                  in the public education system. Centred around the holistic
+                  development of children, the Bhumi fellowship will help you
+                  build an ecosystem within the school, to enable school leaders
+                  and teachers to equip students with the knowledge,
+                  adaptability, and resilience to thrive.
+                </p>
+                <a
+                  href="#forms"
+                  class="btn"
+                  style="color: #ffffff; background-color: #000000"
+                  >FILL FORM</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="join">
+      <div class="container-fluid">
+        <h2 style="color: #331159">SELECTION PROCESS</h2>
+        <div class="row j1">
+          <div style="text-align: -webkit-center" class="col-lg-3 col-md-6">
+            <div
+              class="card align-items-center j2 js--wp-5"
+              style="
+                width: 18rem;
+                height: 21rem;
+                box-shadow: inset 0 0 10px #a173db;
+                padding-top: 20px;
+              "
+            >
+              <i
+                class="fas fa-3x fa-user-friends"
+                style="width: 30%; height: auto; background-color: #a173db"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">ELIGIBILITY</h5>
+                <p class="card-text">
+                  Final year students/Graduates between 20 and 30 years of age.
+                  Past volunteering or work experience in any field. Passionate
+                  about transforming the education system. Fluency in the English
+                  Language
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="text-align: -webkit-center" class="col-lg-3 col-md-6">
+            <div
+              class="card align-items-center j2 js--wp-5"
+              style="
+                width: 18rem;
+                height: 21rem;
+                box-shadow: inset 0 0 10px #a173db;
+                padding-top: 20px;
+              "
+            >
+              <i
+                class="fas fa-3x fa-mouse-pointer"
+                style="width: 30%; height: auto; background-color: #a173db"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">APPLICATION PROCESS</h5>
+                <p class="card-text">
+                  Fill out the application form to give us a sense of who you
+                  are and why you want to be a part of the fellowship.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align: -webkit-center" class="col-lg-3 col-md-6">
+            <div
+              class="card align-items-center j2 js--wp-5"
+              style="
+                width: 18rem;
+                height: 21rem;
+                box-shadow: inset 0 0 10px #a173db;
+                padding-top: 20px;
+              "
+            >
+              <i
+                class="fas fa-3x fa-phone-volume"
+                style="width: 30%; height: auto; background-color: #a173db"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">INTERVIEW</h5>
+                <p class="card-text">
+                  After reviewing your application, we may have some additional
+                  questions for you. A telephonic interview will help us with
+                  the evaluation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="text-align: -webkit-center" class="col-lg-3 col-md-6">
+            <div
+              class="card align-items-center j2 js--wp-5"
+              style="
+                width: 18rem;
+                height: 21rem;
+                box-shadow: inset 0 0 10px #a173db;
+                padding-top: 20px;
+              "
+            >
+              <i
+                class="fas fa-3x fa-user-ninja"
+                style="width: 30%; height: auto; background-color: #a173db"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">FINAL SELECTION</h5>
+                <p class="card-text">
+                  After a successful evaluation, you will have to participate in
+                  a group discussion. Following this, an interview will be
+                  conducted.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<section id="forms">
+	<form name="my_forms" action="index.html" method="post" onsubmit="return validateForm()" class="my_form">
+
+  <div class="container-fluid contact_00">
+    <div class="row">
+
+      <div class="col-md-3 ff1">
+        <div class="contact-info">
+          <h2>Fellowship Registration</h2>
+          <h4>We would love to have you with us !</h4>
+        </div>
+      </div>
+
+      <div class="col-md-9 ff2">
+        <div class="contact-form">
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="fname" style="color: #000000;" >First Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="fname" value="" required placeholder="Enter First Name" class="form-control" id="fname">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="lname" style="color: #000000;">Last Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="lname" value="" required placeholder="Enter Last Name" class="form-control" id="lname">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="lname" style="color: #000000;" >Gender</label>
+
+            <div class="col-sm-10">
+              <label for="male" class="radio-inline"><input type="radio" name="Gender" value="" required  id="male"> MALE </label>
+              <label for="female" class="radio-inline"><input type="radio" name="Gender" value="" required  id="female"> FEMALE </label>
+              <label for="other" class="radio-inline"><input type="radio" name="Gender" value="" required  id="other"> OTHER </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email" style="color: #000000;" >Email </label>
+            <div class="col-sm-10">
+              <input type="email" name="email" required value="" required placeholder="Enter Your Email" class="form-control" id="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="mobile" style="color: #000000;">Mobile No </label>
+            <div class="col-sm-10">
+              <input type="tel" name="mobile" required value="" required placeholder="Enter Your Mobile Mumber" class="form-control" id="mobile">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="date" style="color: #000000;">Date Of Birth </label>
+            <div class="col-sm-10">
+              <input type="date" name="date" required value="" required class="form-control" id="mobil">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="organization" style="color: #000000;">Organization/Company/Occupation</label>
+            <div class="col-sm-10">
+              <input type="text" name="organization" required value="" required placeholder="Enter here" class="form-control" id="organization">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pincode" style="color: #000000;">Pincode</label>
+            <div class="col-sm-10">
+              <input type="text" name="pincode" required value="" required placeholder="Enter Pincode" class="form-control" id="pincode">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="comment" style="color: #000000;" >Why Us ? </label>
+            <div class="col-sm-10">
+              <textarea class="form-control" type="text" rows="5" name="comment" placeholder="comment" id="comment"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+
+    </div>
+  </div>
+	  </div>
+	  </div>
+	  </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./resources/js/fellowship.js"></script>
+	  </section>
+
+    <footer class="my_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>ABOUT US</h6>
+              <p>
+                It is time to spread the love, extend support and help & put the
+                needs of others before our luxuries. It is time to do our best
+                and make sure no one sleeps hungry in the times of COVID 19.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>NAVIGATION LINKS</h6>
+              <div class="row">
+                <div class="col-4">
+                  <ul class="group1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Donate</a></li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="group1">
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Activity</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>NEWSLETTER</h6>
+              <p>
+                Contact us in case of any difficulty or to donate ,volunteer or
+                any other specific activity
+              </p>
+              <div id="mc_embed_signup">
+                <form
+                  target="_blank"
+                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                  method="get"
+                  class="subscribe_form relative"
+                >
+                  <div class="input-group d-flex flex-row">
+                    <input
+                      name="EMAIL"
+                      placeholder="Email Address"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Email Address '"
+                      required=""
+                      type="email"
+                    />
+                    <button class="btn sub-btn">
+                      <span class="lnr lnr-location"></span>
+                    </button>
+                  </div>
+                  <div class="mt-10 info"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>Contact Us</h6>
+              <p>
+                Call us at +9788818987 in case of any any difficulty or drop us
+                a mail at agas@gmail.com
+              </p>
+              <div class="row">
+                <ul class="group3">
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

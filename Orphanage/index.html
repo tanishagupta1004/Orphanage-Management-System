@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="#" />
+
+    <link rel="icon" href="resources/img/logo.png" type="image/png" />
+
+    <!-- title -->
+    <title>Orphanage Home</title>
+
+    <!-- css scripts-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap and style-css -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a650d146c2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap jquery files -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="resources/js/index.js"></script>
+    <script
+      type="text/javascript"
+      src="resources/js/jquery.waypoints.min.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/css/responsive.css"
+    />
+    <style>
+      @media only screen and (max-width: 600px) {
+        #banner-image .text-field {
+          background-image: url(./resources/css/img/cover_md.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+          background-attachment: fixed;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-area">
+      <!--<div class ="row heading1 m0">
+                <div class="container">
+                    <div class="float-left">
+                        <ul class="header-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="float-right">
+                        <a href="#">My Account</a>
+                        <a href="#">Donate Now</a>
+                    
+                    </div>
+                </div>
+            </div>-->
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="resources/img/logo.png"
+            /></a>
+            <!--<h5 class="logo-heading">Orphanage Home</h5>-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navigation-bar navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link linknav" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="gallary.html">Activity</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="donation.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="fellowship.html"
+                    >Fellowship</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="volunteer.html"
+                    >Volunteer</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="faq.html">View Orphanage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linknav" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="banner-image">
+      <div class="text-field align-items-center">
+        <div class="container">
+          <div class="text text-center t1" style="padding-top: 35px">
+            <!-- <p class="p1">
+              WE NEED YOUR HELP TO MAKE THIS WORLD A BETTER PLACE
+            </p> -->
+            <h1
+              class="main-heading"
+              style="color: #ffffff";
+            >
+              GIVE A HAND TO MAKE THE WORLD BETTER
+            </h1>
+            <!-- <p class="p2">
+              We believe that all the children in the world have the right to be
+              cared for and the right to be protected
+            </p> -->
+            <a href="#" class="link1">DONATE NOW</a>
+            <a href="gallary.html" class="link2" style="color: #000000; border: 1px solid #000000;">VIEW ACTIVITY</a>
+          </div>
+        </div>
+      </div>
+      <div class="block-field">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <div class="b1">
+                <h5>TOTAL DONATION</h5>
+                <p>
+                  We have recieved a total donation of 563k since the start of
+                  this orphanage home which has helped for the upliftment
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="b2">
+                <h5>TOTAL VOLUNTEERS</h5>
+                <p>
+                  The amount of people serving for this orphanage home are
+                  increasing day by day for the upliftment of a better world.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="b3">
+                <h5>FUTURE PLANS</h5>
+                <p>
+                  We aim to provide apportunities to people to work under this
+                  organisation for the upliftment of a better world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="container c1">
+        <div class="row intro1-inner">
+          <div class="col-lg-6">
+            <div class="i1">
+              <div class="matter text-center">
+                <h2>About Us</h2>
+                <p class="js--wp-3">
+                  The Child Protection Programme is a core sector of our work.
+                  We utilize a child rights programming framework and keep in
+                  mind the cross-cutting themes of child participation,
+                  non-discrimination and best interests of children.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="n1 align-items-left">
+                    <i class="fa fa-globe" style="color: #a173db"></i>
+                    <h5>Donations</h5>
+                    <p>563K</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="n1 align-items-left">
+                    <i class="fa fa-users" style="color: #a173db"></i>
+                    <h5>Volunteers</h5>
+                    <p>5.2M</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="n1 align-items-left">
+                    <i class="fa fa-desktop" style="color: #a173db"></i>
+                    <h5>Projects</h5>
+                    <p>145</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="i2 align-items-center">
+              <img
+                class="image"
+                src="resources/img/img1.jpg"
+                alt="intro-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="my-cards">
+      <h2>Our Impact</h2>
+
+      <div class="container d1">
+        <div class="row">
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon"><i class="fa fa-5x fa-graduation-cap"></i></div>
+              <div class="card-body">
+                <h5>Education</h5>
+                <p class="card-text">Over 310827 Educated</p>
+              </div>
+            </div>
+          </div>
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon"><i class="fa fa-5x fa-university"></i></div>
+              <div class="card-body">
+                <h5>Institutional Care</h5>
+                <p class="card-text">1473 Children</p>
+              </div>
+            </div>
+          </div>
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon"><i class="fa fa-5x fa-female"></i></div>
+              <div class="card-body">
+                <h5>Empowerment</h5>
+                <p class="card-text">15632 Women</p>
+              </div>
+            </div>
+          </div>
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon">
+                <i class="fa fa-5x fa-wheelchair" aria-hidden="true"></i>
+              </div>
+              <div class="card-body">
+                <h5>Differently Abled</h5>
+                <p class="card-text">4109 rehabilitated children.</p>
+              </div>
+            </div>
+          </div>
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon"><i class="fa fa-5x fa-medkit"></i></div>
+              <div class="card-body">
+                <h5>Health</h5>
+                <p class="card-text">6,92,518 provided healthcare</p>
+              </div>
+            </div>
+          </div>
+          <div
+            style="text-align: -webkit-center"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div
+              class="card text-center align-items-center m1 js--wp-1"
+              style="width: 80%; color: #ffffff"
+            >
+              <div class="icon"><i class="fa fa-5x fa-television"></i></div>
+              <div class="card-body">
+                <h5>Training</h5>
+                <p class="card-text">Trained 12550 people so far.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hope">
+      <video src="resources/videos/smoke.mp4" autoplay muted loop></video>
+      <div class="align-items-center text center s1">
+        <h2 class="smoky">
+          <span>S</span>
+          <span>h</span>
+          <span>a</span>
+          <span>r</span>
+          <span>e</span>
+          <span>&nbsp;</span>
+          <span>H</span>
+          <span>o</span>
+          <span>p</span>
+          <span>e</span>
+        </h2>
+      </div>
+      <p>
+        Let us stand together to fight this global pandemic,<br />
+        COVID 19.<br />
+        Let us share our resources, share our meals <br />
+        share our wisdom, share our concern <br />
+        with millions of less privileged fellow <br />Indians<br />
+      </p>
+      <h6>Let us share hope of a better tomorrow!</h6>
+      <div class="b111" style="text-align: -webkit-center" ;>
+        <a class="text-center js--wp-2">Donate Now</a>
+      </div>
+    </section>
+
+    <footer class="my_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>ABOUT US</h6>
+              <p>
+                It is time to spread the love, extend support and help & put the
+                needs of others before our luxuries. It is time to do our best
+                and make sure no one sleeps hungry in the times of COVID 19.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>NAVIGATION LINKS</h6>
+              <div class="row">
+                <div class="col-4">
+                  <ul class="group1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Donate</a></li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="group1">
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Activity</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>NEWSLETTER</h6>
+              <p>
+                Contact us in case of any difficulty or to donate ,volunteer or
+                any other specific activity
+              </p>
+              <div id="mc_embed_signup">
+                <form
+                  target="_blank"
+                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                  method="get"
+                  class="subscribe_form relative"
+                >
+                  <div class="input-group d-flex flex-row">
+                    <input
+                      name="EMAIL"
+                      placeholder="Email Address"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Email Address '"
+                      required=""
+                      type="email"
+                    />
+                    <button class="btn sub-btn">
+                      <span class="lnr lnr-location"></span>
+                    </button>
+                  </div>
+                  <div class="mt-10 info"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>Contact Us</h6>
+              <p>
+                Call us at +9788818987 in case of any any difficulty or drop us
+                a mail at agas@gmail.com
+              </p>
+              <div class="row">
+                <ul class="group3">
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-x fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
